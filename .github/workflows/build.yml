@@ -42,7 +42,7 @@ jobs:
 
     # 5. Guardar el APK generado como artefacto
     - name: Upload APK
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3  # Cambiamos a v3
       with:
         name: app-apk
         path: bin/*.apk
